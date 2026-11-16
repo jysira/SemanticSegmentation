@@ -1,0 +1,57 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# IDE and local settings
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Model weights, exported graphs and runtime artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
+*.tflite
+*.safetensors
+*.cache
+*.log
+*.tmp
+
+# Datasets, experiments and generated deliverables
+/data/
+/datasets/
+/weights/
+/checkpoints/
+/runs/
+/output/
+/outputs/
+/tmp/
+/temp/
+/scripts/data/
+/scripts/weights/
+/scripts/runs/
+
+# Keep project code, YAML configs, README and requirements tracked.
+
+# Generated masks, review workspaces and experiment reports
+/reports/**
+!/reports/README.md
+!/reports/experiment_template.md
